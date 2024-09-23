@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap')
+
+// Variables
+$opensans: 'Open Sans', sans-serif
+$montse : 'Montserrat', 'Open Sans', sans-serif
+
+*
+	margin: 0
+	padding: 0
+	color: #707070
+	font-family: 'Open Sans', sans-serif
+	font-display: fallback
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	font-smoothing: antialiased
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+.hidden
+	display: none
+
+.hs-form 
+	.hs-button,
+	input,
+	textarea
+		-webkit-appearance: none !important
+		-moz-appearance: none !important
+		appearance: none !important
+	input[type="checkbox"]
+		width: auto!important
+		height: auto!important
+		margin-right: 5px!important
+		appearance: checkbox!important
+		-webkit-appearance: checkbox!important
+		-moz-appearance: checkbox!important		
+
+body
+	position: relative
+	font-family: 'Plus Jakarta Sans', sans-serif
+	&.no_scroll
+		overflow: hidden
+		overflow-y: hidden
+	&.no-scroll
+		overflow: hidden
+	.img-responsive
+		display: block
+		max-width: 100%
+	.container
+		width: 95%
+		max-width: 1280px
+		margin: 0 auto	
+		&:before 
+			display: table
+			content: ""
+			clear: both
+		&:after 
+			display: table
+			content: " "
+			clear: both
+	a
+		cursor: pointer
+		text-decoration: none
+		transition: 0.3s ease-in-out
+		&:hover
+			text-decoration: none
+		&:focus
+			text-decoration: none
+	h1,h2,h3,h4,h5,h6
+		font-weight: 700
+		font-family: 'Plus Jakarta Sans', sans-serif
+	h1,h2,h3,h4,h5,h6,p,span
+		margin: 0
+		font-family: 'Plus Jakarta Sans', sans-serif
+	.img-responsive
+		display: block
+		max-width: 100%
+
+::after,
+::before
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.text-center
+	text-align: center
+
+.banner-part
+	padding: 50px 0
+	a
+		display: block
+		img
+			max-width: 100%
+			display: block
+			margin: 0 auto
+@import header
+@import index
+@import control-de-proveedores
+@import responsive
