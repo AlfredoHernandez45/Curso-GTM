@@ -1437,6 +1437,218 @@ header .container .flex-header .ul-menu ul .nu_btn_solicitar_demo a.head_contact
   line-height: 160%;
 }
 
+.torneo_golf_2024 header.conmemorativo_aniversario {
+  border-top: none;
+  padding: 50px 0px 80px;
+  margin: auto;
+}
+.torneo_golf_2024 header.conmemorativo_aniversario img {
+  display: block;
+  margin: auto;
+}
+.torneo_golf_2024 .hero {
+  background-color: #fff;
+  position: relative;
+}
+.torneo_golf_2024 .hero .flex_content {
+  display: flex;
+  background-color: #333E48;
+}
+.torneo_golf_2024 .hero .flex_content .title_hero {
+  width: 100%;
+  max-width: 640px;
+  padding: 80px 0px;
+}
+.torneo_golf_2024 .hero .flex_content .title_hero .title {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+.torneo_golf_2024 .hero .flex_content .title_hero .title h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 160%;
+}
+.torneo_golf_2024 .hero .flex_content .descript_info {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  padding: 100px 0px;
+  background: #C8102E;
+  border-radius: 132px 0px 0px 132px;
+  width: 100%;
+  max-width: 850px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.torneo_golf_2024 .hero .flex_content .descript_info .item_info {
+  width: 100%;
+  max-width: 170px;
+}
+.torneo_golf_2024 .hero .flex_content .descript_info .item_info img {
+  background: #C8102E;
+  display: block;
+  margin: auto auto 15px;
+  max-width: 100%;
+}
+.torneo_golf_2024 .hero .flex_content .descript_info .item_info h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+}
+.torneo_golf_2024 .contact_formulario {
+  padding: 100px 0px 80px;
+  background-color: #FCF8F6;
+}
+.torneo_golf_2024 .contact_formulario .content_form {
+  margin: auto;
+  width: 100%;
+  max-width: 940px;
+}
+.torneo_golf_2024 .contact_formulario .content_form .title_form {
+  background-color: #C8102E;
+  border-radius: 24px 24px 0px 0px;
+  padding: 20px 30px;
+}
+.torneo_golf_2024 .contact_formulario .content_form .title_form h2 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 160%;
+  text-align: center;
+}
+.torneo_golf_2024 .contact_formulario .content_form .form_body {
+  padding: 30px 50px;
+  background-color: #fff;
+  border-radius: 0px 0px 15px 15px;
+}
+.torneo_golf_2024 footer {
+  padding: 20px 0px;
+}
+.torneo_golf_2024 footer p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+}
+
+.torneo_golf_2024_gracias {
+  background-color: #FCF8F6;
+}
+.torneo_golf_2024_gracias header.conmemorativo_aniversario {
+  background-color: #fff;
+  border-top: none;
+  padding: 50px 0px;
+  margin: auto;
+}
+.torneo_golf_2024_gracias header.conmemorativo_aniversario img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.torneo_golf_2024_gracias .hero {
+  background-color: #333E48;
+  border-radius: 0px 0px 80px 0px;
+}
+.torneo_golf_2024_gracias .hero .title_hero {
+  width: 100%;
+  padding: 80px 0px;
+}
+.torneo_golf_2024_gracias .hero .title_hero h1 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 160%;
+}
+.torneo_golf_2024_gracias .descarga_pdf {
+  padding: 80px 0px;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 80px;
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item {
+  width: 100%;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item h2 {
+  font-size: 28px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item ul {
+  padding-left: 20px;
+  margin: 30px 0px;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item ul li {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item ul li span {
+  color: #000;
+  font-size: 22px;
+  line-height: 160%;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item .btn a {
+  background-color: #C8102E;
+  border: 1px solid #C8102E;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item .btn a:hover {
+  background-color: #fff;
+  color: #C8102E;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .image_item {
+  margin: auto;
+  width: 100%;
+  max-width: 320px;
+}
+.torneo_golf_2024_gracias .descarga_pdf .revista_pdf .image_item img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.torneo_golf_2024_gracias .descarga_pdf p {
+  color: #000000;
+  font-size: 25px;
+  line-height: 160%;
+  text-align: center;
+  margin: 80px 0px 0px;
+}
+.torneo_golf_2024_gracias .descarga_pdf p a {
+  color: #E1251B;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.torneo_golf_2024_gracias footer {
+  padding: 20px 0px;
+}
+.torneo_golf_2024_gracias footer p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+}
+
 @media (min-width: 979px) and (max-width: 1200px) {
   .index_v2 .hero .flex_hero .text_hero {
     padding: 30px 50px 80px;
@@ -1488,6 +1700,12 @@ header .container .flex-header .ul-menu ul .nu_btn_solicitar_demo a.head_contact
   }
   .control_proveedores_linkaform .hero {
     padding: 50px 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info {
+    max-width: 530px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title {
+    margin: auto auto auto 50px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1599,6 +1817,68 @@ header .container .flex-header .ul-menu ul .nu_btn_solicitar_demo a.head_contact
   }
   .integraciones h2 {
     font-size: 38px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario img {
+    max-width: 100px;
+  }
+  .torneo_golf_2024 .hero .flex_content {
+    flex-direction: column;
+    background-color: #FCF8F6;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero {
+    background-color: #333E48;
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title {
+    max-width: 100%;
+    margin: 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title h1 {
+    text-align: center;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info {
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    border-radius: 0px 0px 80px 80px;
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario img {
+    max-width: 100px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero {
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero h1 {
+    font-size: 40px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf {
+    padding: 40px;
+    gap: 30px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item h2 {
+    font-size: 26px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item ul li span {
+    font-size: 20px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .image_item {
+    max-width: 250px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf p {
+    font-size: 22px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf p a {
+    color: #E1251B;
+    text-decoration: underline;
+    text-underline-position: under;
   }
 }
 @media (max-width: 767px) {
@@ -1863,6 +2143,87 @@ header .container .flex-header .ul-menu ul .nu_btn_solicitar_demo a.head_contact
   }
   .integraciones .image_marcas img.calendar {
     max-width: 40px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario img {
+    max-width: 80px;
+  }
+  .torneo_golf_2024 .hero .flex_content {
+    flex-direction: column;
+    background-color: #FCF8F6;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero {
+    background-color: #333E48;
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px 30px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info {
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    border-radius: 0px 0px 80px 80px;
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info .item_info h3 {
+    font-size: 20px;
+  }
+  .torneo_golf_2024 .contact_formulario {
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024 .contact_formulario .content_form .title_form h2 {
+    font-size: 22px;
+  }
+  .torneo_golf_2024 footer {
+    padding: 20px 0px;
+  }
+  .torneo_golf_2024 footer p {
+    font-size: 15px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario img {
+    max-width: 80px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero {
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf {
+    padding: 40px;
+    gap: 30px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item h2 {
+    font-size: 25px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .info_item ul li span {
+    font-size: 18px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .revista_pdf .image_item {
+    max-width: 250px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf p {
+    font-size: 18px;
+  }
+  .torneo_golf_2024_gracias footer {
+    padding: 20px 0px;
+  }
+  .torneo_golf_2024_gracias footer p {
+    font-size: 15px;
   }
 }
 @media (max-width: 480px) {
@@ -2275,6 +2636,108 @@ header .container .flex-header .ul-menu ul .nu_btn_solicitar_demo a.head_contact
   }
   .toggleButton:hover {
     font-size: 16px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024 header.conmemorativo_aniversario img {
+    max-width: 80px;
+  }
+  .torneo_golf_2024 .hero .flex_content {
+    flex-direction: column;
+    background-color: #FCF8F6;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero {
+    background-color: #333E48;
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px 30px;
+  }
+  .torneo_golf_2024 .hero .flex_content .title_hero .title h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info {
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    border-radius: 0px 0px 80px 80px;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info .item_info {
+    max-width: 130px;
+  }
+  .torneo_golf_2024 .hero .flex_content .descript_info .item_info h3 {
+    font-size: 18px;
+  }
+  .torneo_golf_2024 .contact_formulario .content_form .title_form h2 {
+    font-size: 20px;
+  }
+  .torneo_golf_2024 footer {
+    padding: 20px 0px;
+  }
+  .torneo_golf_2024 footer p {
+    font-size: 15px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario {
+    padding: 30px 0px;
+  }
+  .torneo_golf_2024_gracias header.conmemorativo_aniversario img {
+    max-width: 80px;
+  }
+  .torneo_golf_2024_gracias .hero {
+    border-radius: 0px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero {
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024_gracias .hero .title_hero h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf {
+    padding: 50px 0px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container {
+    width: 90%;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf {
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf .info_item h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf .info_item ul li {
+    font-size: 18px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf .info_item ul li span {
+    font-size: 16px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf .info_item .btn a {
+    max-width: 150px;
+    font-size: 15px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf .container .revista_pdf .image_item {
+    max-width: 300px;
+  }
+  .torneo_golf_2024_gracias .descarga_pdf p {
+    font-size: 15px;
+    margin: 50px 20px 0px;
+  }
+  .torneo_golf_2024_gracias footer {
+    padding: 20px 0px;
+  }
+  .torneo_golf_2024_gracias footer p {
+    font-size: 15px;
   }
 }
 .integraciones {

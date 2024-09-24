@@ -1,0 +1,205 @@
+.torneo_golf_2024_gracias
+	background-color: #FCF8F6
+	header.conmemorativo_aniversario
+		background-color: #fff
+		border-top: none
+		padding: 50px 0px
+		margin: auto
+		img
+			display: block
+			margin: auto
+			max-width: 100%
+	.hero
+		background-color: #333E48
+		border-radius: 0px 0px 80px 0px
+		.title_hero
+			width: 100%
+			padding: 80px 0px
+			h1
+				color: #fff
+				font-size: 55px
+				font-weight: 700
+				line-height: 160%
+	.descarga_pdf
+		// background-color: #FCF8F6
+		padding: 80px 0px
+		.revista_pdf
+			background-color: #fff
+			border-radius: 15px
+			padding: 40px 80px
+			width: 100%
+			max-width: 1050px
+			margin: auto
+			display: flex
+			align-items: center
+			.info_item
+				width: 100%
+				h2
+					font-size: 28px
+					line-height: 160%
+					margin-bottom: 20px
+				ul
+					padding-left: 20px
+					margin: 30px 0px
+					li
+						font-size: 25px
+						margin-bottom: 10px
+						span
+							color: #000
+							font-size: 22px
+							line-height: 160%
+				.btn
+					a
+						background-color: #C8102E
+						border: 1px solid #C8102E
+						border-radius: 50px
+						color: #ffff
+						padding: 10px 0px
+						display: block
+						width: 100%
+						max-width: 200px
+						font-size: 17px
+						font-weight: 600
+						line-height: 160%
+						text-align: center
+						transition: all 0.3s ease-in-out
+						&:hover
+							background-color: #fff
+							color: #C8102E 
+			.image_item
+				margin: auto
+				width: 100%
+				max-width: 320px
+				img
+					display: block
+					margin: auto
+					max-width: 100%
+		p
+			color: #000000
+			font-size: 25px
+			line-height: 160%
+			text-align: center
+			margin: 80px 0px 0px
+			a
+				color: #E1251B
+				text-decoration: underline
+				text-underline-position: under
+	footer
+		padding: 20px 0px
+		p
+			color: #fff
+			font-size: 17px
+			font-weight: 600
+			line-height: 160%
+			text-align: center
+
+// @media (min-width: 768px) and (max-width: 979px)
+@mixin desktop-torneo_golf_2024_gracias
+@mixin desktop_lap-torneo_golf_2024_gracias
+	.torneo_golf_2024_gracias
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 100px
+		.hero
+			.title_hero
+				padding: 50px 0px
+				h1
+					font-size: 40px
+		.descarga_pdf
+			.revista_pdf
+				padding: 40px
+				gap: 30px
+				.info_item
+					h2
+						font-size: 26px
+					ul
+						li
+							span
+								font-size: 20px
+				.image_item
+					max-width: 250px
+			p
+				font-size: 22px
+				a
+					color: #E1251B
+					text-decoration: underline
+					text-underline-position: under
+
+// @media (max-width: 767px)
+@mixin laptop-torneo_golf_2024_gracias
+	.torneo_golf_2024_gracias
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 80px
+		.hero
+			.title_hero
+				padding: 50px 0px
+				h1
+					font-size: 38px
+					text-align: center
+		.descarga_pdf
+			.revista_pdf
+				padding: 40px
+				gap: 30px
+				.info_item
+					h2
+						font-size: 25px
+					ul
+						li
+							span
+								font-size: 18px
+				.image_item
+					max-width: 250px
+			p
+				font-size: 18px
+		footer
+			padding: 20px 0px
+			p
+				font-size: 15px
+
+// @media (max-width: 480px)
+@mixin movil-torneo_golf_2024_gracias
+	.torneo_golf_2024_gracias
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 80px
+		.hero
+			border-radius: 0px
+			.title_hero
+				padding: 50px 0px
+				h1
+					font-size: 30px
+					text-align: center
+		.descarga_pdf
+			padding: 50px 0px
+			.container
+				width: 90%
+				.revista_pdf
+					flex-direction: column
+					padding: 40px
+					gap: 30px
+					.info_item
+						h2
+							font-size: 22px
+							text-align: center
+						ul
+							li
+								font-size: 18px
+								span
+									font-size: 16px
+						.btn
+							a
+								max-width: 150px
+								font-size: 15px
+					.image_item
+						max-width: 300px
+			p
+				font-size: 15px
+				margin: 50px 20px 0px
+		footer
+			padding: 20px 0px
+			p
+				font-size: 15px

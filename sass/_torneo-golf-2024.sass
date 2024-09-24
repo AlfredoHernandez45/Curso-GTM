@@ -1,0 +1,205 @@
+.torneo_golf_2024
+	header.conmemorativo_aniversario
+		border-top: none
+		padding: 50px 0px 80px
+		margin: auto
+		img
+			display: block
+			margin: auto
+	.hero
+		background-color: #fff
+		position: relative
+		.flex_content
+			display: flex
+			background-color: #333E48
+			.title_hero
+				width: 100%
+				max-width: 640px
+				padding: 80px 0px
+				.title
+					width: 100%
+					max-width: 450px
+					margin: auto
+					h1
+						color: #fff
+						font-size: 40px
+						font-weight: 700
+						line-height: 160%
+			.descript_info
+				position: absolute
+				right: 0
+				top: -20px
+				padding: 100px 0px
+				background: #C8102E
+				border-radius: 132px 0px 0px 132px
+				width: 100%
+				max-width: 850px
+				display: flex
+				justify-content: space-evenly
+				.item_info
+					width: 100%
+					max-width: 170px
+					img
+						background: #C8102E
+						display: block
+						margin: auto auto 15px
+						max-width: 100%
+					h3
+						color: #fff
+						font-size: 25px
+						font-weight: 600
+						line-height: 160%
+						text-align: center
+	.contact_formulario
+		padding: 100px 0px 80px
+		background-color: #FCF8F6
+		.content_form
+			margin: auto
+			width: 100%
+			max-width: 940px
+			.title_form
+				background-color: #C8102E
+				border-radius: 24px 24px 0px 0px
+				padding: 20px 30px
+				h2
+					color: #fff
+					font-size: 25px
+					line-height: 160%
+					text-align: center
+			.form_body
+				padding: 30px 50px
+				background-color: #fff
+				border-radius: 0px 0px 15px 15px
+	footer
+		padding: 20px 0px
+		p
+			color: #fff
+			font-size: 17px
+			font-weight: 600
+			line-height: 160%
+			text-align: center
+
+// @media (min-width: 979px) and (max-width: 1200px)
+@mixin desktop-torneo_golf_2024()
+	.torneo_golf_2024 
+		.hero 
+			.flex_content 
+				.descript_info
+					max-width: 530px
+				.title_hero 
+					.title
+						margin: auto auto auto 50px
+
+// @media (min-width: 768px) and (max-width: 979px)
+@mixin desktop_lap-torneo_golf_2024()
+	.torneo_golf_2024 
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 100px
+		.hero 
+			.flex_content
+				flex-direction: column
+				background-color: #FCF8F6
+				.title_hero 
+					background-color: #333E48
+					max-width: 100%
+					padding: 50px 0px
+					.title
+						max-width: 100%
+						margin: 0px
+						h1
+							text-align: center
+				.descript_info
+					max-width: 100%
+					position: relative
+					top: 0px
+					border-radius: 0px 0px 80px 80px
+					padding: 50px 0px
+
+// @media (max-width: 767px)
+@mixin laptop-torneo_golf_2024()
+	.torneo_golf_2024
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 80px
+		.hero 
+			.flex_content
+				flex-direction: column
+				background-color: #FCF8F6
+				.title_hero 
+					background-color: #333E48
+					max-width: 100%
+					padding: 50px 0px
+					.title
+						max-width: 100%
+						margin: 0px
+						padding: 0px 30px 
+						h1
+							font-size: 35px
+							text-align: center
+				.descript_info
+					max-width: 100%
+					position: relative
+					top: 0px
+					border-radius: 0px 0px 80px 80px
+					padding: 50px 0px
+					.item_info
+						h3
+							font-size: 20px
+		.contact_formulario
+			padding: 50px 0px
+			.content_form
+				.title_form
+					h2
+						font-size: 22px
+		footer
+			padding: 20px 0px
+			p
+				font-size: 15px
+
+// @media (max-width: 480px)
+@mixin movil-torneo_golf_2024()
+	.torneo_golf_2024
+		header.conmemorativo_aniversario
+			padding: 30px 0px
+			img
+				max-width: 80px
+		.hero 
+			.flex_content
+				flex-direction: column
+				background-color: #FCF8F6
+				.title_hero 
+					background-color: #333E48
+					max-width: 100%
+					padding: 50px 0px
+					.title
+						max-width: 100%
+						margin: 0px
+						padding: 0px 30px 
+						h1
+							font-size: 28px
+							text-align: center
+				.descript_info
+					max-width: 100%
+					position: relative
+					top: 0px
+					border-radius: 0px 0px 80px 80px
+					padding: 50px 0px
+					flex-wrap: wrap
+					gap: 20px
+					.item_info
+						max-width: 130px
+						h3
+							font-size: 18px
+		.contact_formulario
+			.content_form
+				.title_form
+					h2
+						font-size: 20px
+
+		footer
+			padding: 20px 0px
+			p
+				font-size: 15px
